@@ -234,6 +234,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Apfel.cpp" />
     <ClCompile Include="Hooks\Callbacks\EditSelectRelease.cpp" />
     <ClCompile Include="Game\Features\Visuals\FortPickupChams.cpp" />
     <ClCompile Include="Game\Features\Visuals\FortPawnChams.cpp" />
@@ -399,6 +400,7 @@
     <ClCompile Include="Utilities\Math.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Apfel.h" />
     <ClInclude Include="Game\Features\Visuals\Chams.h" />
     <ClInclude Include="Configs\Config.h" />
     <ClInclude Include="Configs\ConfigTypes.h" />

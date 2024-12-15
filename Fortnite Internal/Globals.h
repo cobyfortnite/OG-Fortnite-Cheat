@@ -73,5 +73,3 @@ inline HMODULE CurrentModule = nullptr;// The current module handle
 
 // Compile-Time Asserts
 static_assert(LOG_LEVEL < LOG_LEVEL_MAX && LOG_LEVEL >= LOG_NONE, "Invalid log level");
-
-static_assert(false, "Please read Globals.h and set the right configuration for you. If you are manual mapping, there are REQUIRED settings. DOUBLE CLICK ME AND REMOVE ME!");

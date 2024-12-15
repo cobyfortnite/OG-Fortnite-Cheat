@@ -158,6 +158,7 @@
     <ClCompile Include="Hooks\Callbacks\PerformBuildingEditInteraction.cpp">
       <Filter>Hooks\Callbacks</Filter>
     </ClCompile>
+    <ClCompile Include="Apfel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Game">
@@ -397,5 +398,6 @@
     <ClInclude Include="Utilities\RaaxAssert.h">
       <Filter>Utilities</Filter>
     </ClInclude>
+    <ClInclude Include="Apfel.h" />
   </ItemGroup>
 </Project>

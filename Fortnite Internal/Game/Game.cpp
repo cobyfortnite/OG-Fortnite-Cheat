@@ -7,6 +7,7 @@
 #include "Actors/Actors.h"
 #include "../Game/Input/Input.h"
 #include "../Configs/Config.h"
+#include "../Apfel.h"
 
 #ifdef _IMGUI
 #include "../External-Libs/ImGui/imgui.h"
@@ -14,6 +15,8 @@
 #include "../Drawing/RaaxGUI/RaaxGUI.h"
 #endif
 #include "Features/Visuals/Chams.h"
+
+Apfel::APlayerController PlayerControllerInstance;
 
 void Game::MenuCallback() {
 	static int Tab = 0;
@@ -324,8 +327,8 @@ void Game::MenuCallback() {
 			break;
 			case 5: 
 			{
-				if (ImGui::Button(skCrypt("Crash"))) {
-
+				if (ImGui::Button(skCrypt("ServerChangeName"))) {
+					PlayerControllerInstance.ServerChangeName(L"Testing");
 				}
 			}
 			break;
